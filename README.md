@@ -4,3 +4,6 @@
     email : project15@g15.com    |    pw : khY-5AkhGV!Ly4_
 - Self hosted allow more but is additional functionality, look https://supertokens.com/docs/thirdpartyemailpassword/custom-ui/init/user-management-dashboard/setup    |    https://supertokens.com/auth
 - Remember to add API key before releasing to prod
+- Remove/Change this README and the creds in this file 
+
+
