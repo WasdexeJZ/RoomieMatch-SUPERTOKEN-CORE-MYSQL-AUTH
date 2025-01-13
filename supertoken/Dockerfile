@@ -1,1 +1,1 @@
-FROM registry.supertokens.io/supertokens/supertokens-mysql:9.2.3
+FROM registry.supertokens.io/supertokens/supertokens-mysql:9.3.0

@@ -4,9 +4,9 @@ services:
   db:
     build: ./mysql
 
-    container_name: mysql-auth
+    container_name: mysql-auth-rm
 
-    image: mysql-auth
+    image: mysql-auth-rm
 
     environment:
       MYSQL_ROOT_PASSWORD: mt;YN`sDP>>@km;x*Tfkm;x
@@ -34,9 +34,9 @@ services:
   supertokens:
     build: ./supertoken/
 
-    image: supertoken-core:9.2.3
+    image: supertoken-core-rm:9.3.0
 
-    container_name: supertoken-core
+    container_name: supertoken-core-rm
 
     depends_on:
       db:
